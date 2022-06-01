@@ -20,7 +20,7 @@ python3
 
 from minio import Minio
 minioClient = Minio('play.min.io:9000',
-                  access_key='Q3AM3UQ867SPQQA43P2F',
-                  secret_key='zuf+tfteSlswRu7BJ86wekitnifILbZam1KYY3TG',
-                  secure=True)
+access_key='Q3AM3UQ867SPQQA43P2F',
+secret_key='zuf+tfteSlswRu7BJ86wekitnifILbZam1KYY3TG',
+secure=True)
 print(minioClient)                  
