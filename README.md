@@ -13,7 +13,7 @@ API: http://172.17.0.4:9000  http://127.0.0.1:9000
 Console: http://172.17.0.4:9001 http://127.0.0.1:9001 
 
 ___________________________________________
-
+```bash
 pip3 install minio
 
 python3
@@ -24,3 +24,4 @@ access_key='Q3AM3UQ867SPQQA43P2F',
 secret_key='zuf+tfteSlswRu7BJ86wekitnifILbZam1KYY3TG',
 secure=True)
 print(minioClient)                  
+```
